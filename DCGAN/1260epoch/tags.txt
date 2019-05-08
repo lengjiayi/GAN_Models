@@ -1,0 +1,3 @@
+blonde hair,purple hair,red hair,blue hair,pink hair,green hair,white hair,gray hair,black hair,brown hair,aqua hair,orange hair
+long hair,short hair
+pink eyes,purple eyes,aqua eyes,bicolored eyes,black eyes,blue eyes,yellow eyes,green eyes,orange eyes,red eyes,brown eyes,gray eyes
