@@ -37,7 +37,7 @@
 
 下面的动图是从[80,180,260,280,320,420,500,640,700,760,800]epoch的记录，G使用了同一个随机向量。
 
-![80to800](C:\Users\82454\Desktop\Tools\path\LAMDA\ML_lhy\LabNotes\Media\DCGAN.gif)
+![80to800](https://github.com/lengjiayi/GAN_Models/blob/master/DCGAN.gif)
 
 80-640中在我看来人脸的辨识度是逐渐提高的，640epoch以后不知道什么原因，G更改了优化的方向，图片直接从两只眼睛变成了一只眼睛，1020epoch时人脸有了三只眼睛，1100后又回到了两只眼睛。
 
