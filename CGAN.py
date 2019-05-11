@@ -14,14 +14,21 @@ import csv
 import random
 import sys
 
+from google.colab import drive
+drive.mount('/content/gdrive')
 
-datasize = 8000
+
+start_epoch=230
+
+
+datasize = 13000
 
 learning_rate = 0.0002
-epoch_num = 100
+epoch_num = 500
 batch_size = 160
-D_step = 2
-G_step = 2
+D_step = 1
+G_step = 1
+EarlyStop = True
 
 
 def getTags():
@@ -49,7 +56,7 @@ def getfaces():
 	sample = np.random.permutation(18000)
 	sample = sample[0:datasize]
 	for i in sample:
-		img=mping.imread('./selected/'+str(i)+'.jpg')
+		img=mping.imread('./selected64/'+str(i)+'.jpg')
 		reform=[img[:,:,0],img[:,:,1],img[:,:,2]]
 		faces.append(reform)
 		hcvec = np.zeros(len(tagset[0]))
@@ -80,6 +87,7 @@ def GSampler(size):
 		ec = random.randint(0,len(tagset[2])+5)
 		if ec<len(tagset[2]):
 			tag[ec+len(tagset[0])+len(tagset[1])]=1
+#	return xs,tags
 	return xs.cuda(),tags.cuda()
 
 def DTagSampler(size):
@@ -94,6 +102,7 @@ def DTagSampler(size):
 		ec = random.randint(0,len(tagset[2])+5)
 		if ec<len(tagset[2]):
 			tag[ec+len(tagset[0])+len(tagset[1])]=1
+#	return tags
 	return tags.cuda()
 
 
@@ -101,24 +110,31 @@ def DTagSampler(size):
 class Generator(nn.Module):
 	def __init__(self):
 		super(Generator, self).__init__()
-		self.fc = nn.Linear(106,4*4*128)
-		self.remap = nn.Sequential(
-			nn.ConvTranspose2d(128,64,5,stride=2,padding=1),
-			nn.ReLU(),
-			nn.ConvTranspose2d(64,32,5,stride=2,padding=1),
-			nn.ReLU(),
-			nn.ConvTranspose2d(32,5,6,stride=2,padding=1),
+		self.tagfc = nn.Sequential(
+			nn.Linear(26,80),
+			nn.ReLU()
 			)
-		self.fc2 = nn.Linear(5*40*40,3*40*40)
+		self.fc = nn.Linear(160,4*4*512)
+		self.remap = nn.Sequential(
+			nn.ConvTranspose2d(512,256,4,stride=2,padding=1),
+			nn.ReLU(),
+			nn.BatchNorm2d(256),
+			nn.ConvTranspose2d(256,128,4,stride=2,padding=1),
+			nn.ReLU(),
+			nn.BatchNorm2d(128),
+			nn.ConvTranspose2d(128,64,4,stride=2,padding=1),
+			nn.ReLU(),
+			nn.BatchNorm2d(64),
+			nn.ConvTranspose2d(64,3,4,stride=2,padding=1),
+			)
 
 	def forward(self, x, tags):
-		c = torch.cat((x,tags),1) #batch_size*126
-		c = self.fc(c).cuda()
-		c = c.view(c.shape[0],128,4,4)
+		tags = self.tagfc(tags)
+		c = torch.cat((x,tags),1) #batch_size*160
+		c = self.fc(c)
+		c = c.view(c.shape[0],512,4,4)
 		c = self.remap(c)
-		c = c.view(c.shape[0],5*40*40)
-		c = self.fc2(c)
-		c = c.view(c.shape[0],3,40,40)
+		c = nn.Tanh()(c)
 		return c
 
 
@@ -126,12 +142,21 @@ class Generator(nn.Module):
 class Discriminator(nn.Module):
 	def __init__(self):
 		super(Discriminator, self).__init__()
-		self.tagfc = nn.Linear(26,9*9)
+		self.tagfc = nn.Sequential(
+			nn.Linear(26,64),
+			nn.ReLU()
+			)
 		self.cmap = nn.Sequential(
-			nn.Conv2d(3,32,6,stride=2,padding=1),
+			nn.Conv2d(3,64,4,stride=2,padding=1),
 			nn.LeakyReLU(),
-			nn.BatchNorm2d(32),
-			nn.Conv2d(32,64,5,stride=2,padding=1),
+			nn.BatchNorm2d(64),
+			nn.Conv2d(64,128,4,stride=2,padding=1),
+			nn.LeakyReLU(),
+			nn.BatchNorm2d(128),
+			nn.Conv2d(128,256,4,stride=2,padding=1),
+			nn.LeakyReLU(),
+			nn.BatchNorm2d(256),
+			nn.Conv2d(256,1,4,stride=1,padding=0),
 			)
 		self.conv = nn.Sequential(
 			nn.Conv2d(65,16,3),
@@ -140,46 +165,16 @@ class Discriminator(nn.Module):
 			nn.Conv2d(16,4,3),
 			)
 		self.fcm = nn.Sequential(
-			nn.Linear(4*5*5,1),
+			nn.Linear(89,1),
 			)
 	def forward(self, x, tags):
 		x = self.cmap(x)
 		tags = self.tagfc(tags)
-		tags = tags.view(tags.shape[0],1,9,9)
+		x = x.view(x.shape[0],1*5*5)
 		x = torch.cat((x,tags),1)
-		x = self.conv(x)
-		x = x.view(x.shape[0],4*5*5)
 		x = self.fcm(x)
 		x = F.sigmoid(x)
 		return x
-
-
-
-def getImg(array):
-	array=array.reshape(3,40*40)
-	img=[]
-	for i in range(40*40):
-		img.append([array[0][i],array[1][i],array[2][i]])
-	img=np.array(img)
-	img=np.clip(img,0,1)
-	return img.reshape(40,40,3)
-
-
-def vitest():
-	gvec,gtag = GSampler(25)
-	gout = generator(gvec,gtag)
-	gout = gout.detach().numpy()
-	gout = gout.reshape(25,3,40,40)
-	i = 0
-	for idata in gout:
-		i = i + 1
-		img = getImg(idata)
-		plt.subplot(5,5,i)
-		plt.xticks([])
-		plt.yticks([])
-		plt.imshow(img)
-	plt.subplots_adjust(wspace=0,hspace=0,left=None,right=None,bottom=None,top=None)
-	plt.show()
 
 
 
@@ -188,18 +183,20 @@ criterion = nn.BCEWithLogitsLoss()
 criterion.cuda()
 
 
-def DLossfun(dreal,dfake,dmiss):
+def DLossfun(dreal,dfake):
 #	onewithep = torch.ones(drealm.shape[0],1)-torch.rand(drealm.shape[0],1)*0.05
 #	onewithep = torch.ones(dreal.shape[0],1).cuda()
-	onewithep = (torch.ones(dreal.shape[0],1)-torch.rand(dreal.shape[0],1)*0.3).cuda()
-	zerowithep = torch.zeros(dfake.shape[0],1).cuda()
+#	onewithep = (torch.ones(dreal.shape[0],1)-torch.rand(dreal.shape[0],1)*0.1)
+#	zerowithep = torch.zeros(dfake.shape[0],1)
+	onewithep = (torch.ones(dreal.shape[0],1)-torch.rand(dreal.shape[0],1)*0.1).cuda()
+	zerowithep = (torch.zeros(dreal.shape[0],1)+torch.rand(dreal.shape[0],1)*0.1).cuda()
 	realloss = criterion(dreal,onewithep)
 	fakeloss = (1-criterion(dfake,onewithep))
-	missloss = (1-criterion(dmiss,onewithep))
-	return realloss,fakeloss,missloss
+	return (realloss+fakeloss)/2
 
 def GLossfun(dout):
 	gloss = criterion(dout,torch.ones(dout.shape[0],1).cuda())
+#	gloss = criterion(dout,torch.ones(dout.shape[0],1))
 	return gloss
 
 
@@ -207,9 +204,10 @@ def train(epoch_num):
 	for epoch in range(epoch_num):
 		#firstly, train D
 		for d_epoch in range(D_step):
-			d_totalloss = 0
 			i = 0
 			for face,tag in dataloader:
+				face = face
+				tag = tag
 				face = face.cuda()
 				tag = tag.cuda()
 				i += 1
@@ -221,26 +219,17 @@ def train(epoch_num):
 				gout = generator(gvec,gtag).detach()
 				dfakeout = discrimitor(gout,gtag)
 				#train on mislabel
-				mistag = DTagSampler(face.shape[0])
-				dmissout = discrimitor(face,mistag)
-				d_loss1,d_loss2,d_loss3 = DLossfun(drealout,dfakeout,dmissout)
-				dacc_r = sum(drealout)/drealout.shape[0]
-				dacc_f = 1-sum(dfakeout)/dfakeout.shape[0]
-				dacc_m = 1-sum(dmissout)/dmissout.shape[0]
-				if(dacc_r.item()>0.8) and (dacc_f.item()>0.8) and (dacc_m.item()>0.8):
-					d_loss2.backward()
+				d_loss = DLossfun(drealout,dfakeout)
+				dacc_r = (sum(drealout)/drealout.shape[0]).item()
+				dacc_f = (1-sum(dfakeout)/dfakeout.shape[0]).item()
+				if EarlyStop and dacc_r>0.90 and dacc_f>0.95:
+					print('\tD_epoch:{}/{}: \tAcc:{:.4f}, {:.4f}'.format(d_epoch, D_step, dacc_r,dacc_f))
 					break
-				if dacc_r.item()<0.8:
-					d_loss1.backward()
-				if dacc_f.item()<0.8:
-					d_loss2.backward()
-				if dacc_m.item()<0.8:
-					d_loss3.backward()
+				d_loss.backward()
 				Doptim.step()
-				print('\tD_epoch:{}/{}: \tAcc:{:.4f}, {:.4f}, {:.4f}'.format(d_epoch, D_step, dacc_r.item(),dacc_f.item(),dacc_m.item()))
+			print('\tD_epoch:{}/{}: \tAcc:{:.4f}, {:.4f}'.format(d_epoch, D_step, dacc_r,dacc_f))
 		#secondly, train G
 		for g_epoch in range(G_step):
-			g_totalloss = 0
 			i = 0
 			for batch in range(int(round(datasize/batch_size))):
 				i += 1
@@ -250,21 +239,19 @@ def train(epoch_num):
 				dout = discrimitor(gout,gtag)				
 				g_loss = GLossfun(dout)
 				gacc = sum(dout)/dout.shape[0]
-				if gacc.item()>0.8:
-					print('\tG_epoch:{}/{}: G_batch_loss:{:.8f}\t\tGAcc:{:.4f}\t'.format(g_epoch, G_step, g_loss.item(),gacc.item()))
+				if EarlyStop and gacc.item()>0.95:
+					print('\tG_epoch:{}/{}: GAcc:{:.4f}\t'.format(g_epoch, G_step, gacc.item()))
 					break
 				g_loss.backward()
-				g_totalloss += float(g_loss)
 				Goptim.step()
-		print('\tG_epoch:{}/{}: G_batch_loss:{:.8f}\t\tGAcc:{:.4f}\t'.format(g_epoch, G_step, g_loss.item(),gacc.item()))
-		if epoch%10==0:
-#			vitest()
+			print('\tG_epoch:{}/{}: GAcc:{:.4f}\t'.format(g_epoch, G_step, gacc.item()))
+		if epoch%20==0 and epoch!=0:
 			print('savepoint')
-			torch.save(generator.state_dict(),'./Gs.pth')
-			torch.save(discrimitor.state_dict(),'./Ds.pth')
-			torch.save(Goptim.state_dict(),'./Gsopt.pth')
-			torch.save(Doptim.state_dict(),'./Dsopt.pth')
-		print('\nepoch:{}/{}'.format(epoch, epoch_num))
+			torch.save(generator.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CGs.pth')
+			torch.save(discrimitor.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CDs.pth')
+			torch.save(Goptim.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CGsops.pth')
+			torch.save(Doptim.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CDsops.pth')
+		print('\nepoch:{}/{}'.format(start_epoch+epoch, start_epoch+epoch_num))
 	
 
 
@@ -275,8 +262,8 @@ generator = Generator()
 generator.cuda()
 discrimitor = Discriminator()
 discrimitor.cuda()
-generator.load_state_dict(torch.load('Gs.pth'))
-discrimitor.load_state_dict(torch.load('Ds.pth'))
+generator.load_state_dict(torch.load('./gdrive/My Drive/GAN/'+str(start_epoch)+'CGs.pth'))
+discrimitor.load_state_dict(torch.load('./gdrive/My Drive/GAN/'+str(start_epoch)+'CDs.pth'))
 
 
 traindata=TensorDataset(torch.from_numpy(faceset).float(),torch.from_numpy(facetagset).float())
@@ -284,13 +271,12 @@ dataloader = DataLoader(traindata, batch_size=batch_size, shuffle=True)
 
 Goptim = optim.Adam(generator.parameters(),lr=learning_rate)
 Doptim = optim.Adam(discrimitor.parameters(),lr=learning_rate)
-Goptim.load_state_dict(torch.load('Gsopt.pth'))
-Doptim.load_state_dict(torch.load('Dsopt.pth'))
+Goptim.load_state_dict(torch.load('./gdrive/My Drive/GAN/'+str(start_epoch)+'CGsops.pth'))
+Doptim.load_state_dict(torch.load('./gdrive/My Drive/GAN/'+str(start_epoch)+'CDsops.pth'))
 
 train(epoch_num)
-#vitest()
 
-torch.save(generator.state_dict(),'./Gs.pth')
-torch.save(discrimitor.state_dict(),'./Ds.pth')
-torch.save(Goptim.state_dict(),'./Gsopt.pth')
-torch.save(Doptim.state_dict(),'./Dsopt.pth')
+torch.save(generator.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CGs.pth')
+torch.save(discrimitor.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CDs.pth')
+torch.save(Goptim.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CGsops.pth')
+torch.save(Doptim.state_dict(),'./gdrive/My Drive/GAN/'+str(epoch_num+start_epoch)+'CDsops.pth')

@@ -1,0 +1,2292 @@
+Drive already mounted at /content/gdrive; to attempt to forcibly remount, call drive.mount("/content/gdrive", force_remount=True).
+/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py:1386: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:840/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:841/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:842/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:843/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:844/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:845/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:846/1280
+	earlyD_epoch:0/1: 	Acc:0.6970, 1.0000
+	D_epoch:0/1: 	Acc:0.6970, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:847/1280
+	earlyD_epoch:0/1: 	Acc:0.7955, 1.0000
+	D_epoch:0/1: 	Acc:0.7955, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:848/1280
+	earlyD_epoch:0/1: 	Acc:0.6561, 1.0000
+	D_epoch:0/1: 	Acc:0.6561, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:849/1280
+	earlyD_epoch:0/1: 	Acc:0.6959, 1.0000
+	D_epoch:0/1: 	Acc:0.6959, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:850/1280
+	earlyD_epoch:0/1: 	Acc:0.7379, 1.0000
+	D_epoch:0/1: 	Acc:0.7379, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:851/1280
+	earlyD_epoch:0/1: 	Acc:0.7001, 1.0000
+	D_epoch:0/1: 	Acc:0.7001, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:852/1280
+	earlyD_epoch:0/1: 	Acc:0.6740, 1.0000
+	D_epoch:0/1: 	Acc:0.6740, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:853/1280
+	earlyD_epoch:0/1: 	Acc:0.7992, 1.0000
+	D_epoch:0/1: 	Acc:0.7992, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:854/1280
+	earlyD_epoch:0/1: 	Acc:0.6631, 1.0000
+	D_epoch:0/1: 	Acc:0.6631, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:855/1280
+	earlyD_epoch:0/1: 	Acc:0.7725, 1.0000
+	D_epoch:0/1: 	Acc:0.7725, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:856/1280
+	earlyD_epoch:0/1: 	Acc:0.5880, 1.0000
+	D_epoch:0/1: 	Acc:0.5880, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:857/1280
+	earlyD_epoch:0/1: 	Acc:0.5931, 1.0000
+	D_epoch:0/1: 	Acc:0.5931, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:858/1280
+	earlyD_epoch:0/1: 	Acc:0.7238, 1.0000
+	D_epoch:0/1: 	Acc:0.7238, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:859/1280
+	earlyD_epoch:0/1: 	Acc:0.7311, 1.0000
+	D_epoch:0/1: 	Acc:0.7311, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:860/1280
+	earlyD_epoch:0/1: 	Acc:0.6707, 1.0000
+	D_epoch:0/1: 	Acc:0.6707, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:861/1280
+	earlyD_epoch:0/1: 	Acc:0.6636, 1.0000
+	D_epoch:0/1: 	Acc:0.6636, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:862/1280
+	earlyD_epoch:0/1: 	Acc:0.9611, 1.0000
+	D_epoch:0/1: 	Acc:0.9611, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:863/1280
+	earlyD_epoch:0/1: 	Acc:0.7503, 1.0000
+	D_epoch:0/1: 	Acc:0.7503, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:864/1280
+	earlyD_epoch:0/1: 	Acc:0.6689, 1.0000
+	D_epoch:0/1: 	Acc:0.6689, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:865/1280
+	earlyD_epoch:0/1: 	Acc:0.7210, 1.0000
+	D_epoch:0/1: 	Acc:0.7210, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:866/1280
+	earlyD_epoch:0/1: 	Acc:0.7393, 1.0000
+	D_epoch:0/1: 	Acc:0.7393, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:867/1280
+	earlyD_epoch:0/1: 	Acc:0.7758, 1.0000
+	D_epoch:0/1: 	Acc:0.7758, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:868/1280
+	earlyD_epoch:0/1: 	Acc:0.7005, 1.0000
+	D_epoch:0/1: 	Acc:0.7005, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:869/1280
+	earlyD_epoch:0/1: 	Acc:0.7019, 1.0000
+	D_epoch:0/1: 	Acc:0.7019, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:870/1280
+	earlyD_epoch:0/1: 	Acc:0.7563, 1.0000
+	D_epoch:0/1: 	Acc:0.7563, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:871/1280
+	earlyD_epoch:0/1: 	Acc:0.7593, 1.0000
+	D_epoch:0/1: 	Acc:0.7593, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:872/1280
+	earlyD_epoch:0/1: 	Acc:0.8488, 1.0000
+	D_epoch:0/1: 	Acc:0.8488, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:873/1280
+	earlyD_epoch:0/1: 	Acc:0.8388, 1.0000
+	D_epoch:0/1: 	Acc:0.8388, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:874/1280
+	earlyD_epoch:0/1: 	Acc:0.8114, 1.0000
+	D_epoch:0/1: 	Acc:0.8114, 1.0000
+	G_epoch:0/1: GAcc:0.0024	
+
+epoch:875/1280
+	earlyD_epoch:0/1: 	Acc:0.9877, 1.0000
+	D_epoch:0/1: 	Acc:0.9877, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:876/1280
+	earlyD_epoch:0/1: 	Acc:0.7123, 1.0000
+	D_epoch:0/1: 	Acc:0.7123, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:877/1280
+	earlyD_epoch:0/1: 	Acc:0.8785, 1.0000
+	D_epoch:0/1: 	Acc:0.8785, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:878/1280
+	earlyD_epoch:0/1: 	Acc:0.7811, 1.0000
+	D_epoch:0/1: 	Acc:0.7811, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:879/1280
+	earlyD_epoch:0/1: 	Acc:0.8046, 1.0000
+	D_epoch:0/1: 	Acc:0.8046, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:880/1280
+	earlyD_epoch:0/1: 	Acc:0.8584, 1.0000
+	D_epoch:0/1: 	Acc:0.8584, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:881/1280
+	earlyD_epoch:0/1: 	Acc:0.8475, 1.0000
+	D_epoch:0/1: 	Acc:0.8475, 1.0000
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:882/1280
+	earlyD_epoch:0/1: 	Acc:0.8307, 1.0000
+	D_epoch:0/1: 	Acc:0.8307, 1.0000
+	G_epoch:0/1: GAcc:0.4124	
+
+epoch:883/1280
+	earlyD_epoch:0/1: 	Acc:0.9747, 1.0000
+	D_epoch:0/1: 	Acc:0.9747, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:884/1280
+	earlyD_epoch:0/1: 	Acc:0.9223, 1.0000
+	D_epoch:0/1: 	Acc:0.9223, 1.0000
+	G_epoch:0/1: GAcc:0.9993	
+
+epoch:885/1280
+	earlyD_epoch:0/1: 	Acc:0.7876, 1.0000
+	D_epoch:0/1: 	Acc:0.7876, 1.0000
+	G_epoch:0/1: GAcc:0.9990	
+
+epoch:886/1280
+	earlyD_epoch:0/1: 	Acc:0.8813, 1.0000
+	D_epoch:0/1: 	Acc:0.8813, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:887/1280
+	earlyD_epoch:0/1: 	Acc:0.7703, 1.0000
+	D_epoch:0/1: 	Acc:0.7703, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:888/1280
+	earlyD_epoch:0/1: 	Acc:0.9642, 0.9999
+	D_epoch:0/1: 	Acc:0.9642, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:889/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:890/1280
+	earlyD_epoch:0/1: 	Acc:0.8589, 0.9999
+	D_epoch:0/1: 	Acc:0.8589, 0.9999
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:891/1280
+	earlyD_epoch:0/1: 	Acc:0.8689, 1.0000
+	D_epoch:0/1: 	Acc:0.8689, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:892/1280
+	earlyD_epoch:0/1: 	Acc:0.7444, 1.0000
+	D_epoch:0/1: 	Acc:0.7444, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:893/1280
+	D_epoch:0/1: 	Acc:0.9991, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:894/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:895/1280
+	earlyD_epoch:0/1: 	Acc:0.8285, 1.0000
+	D_epoch:0/1: 	Acc:0.8285, 1.0000
+	G_epoch:0/1: GAcc:0.9953	
+
+epoch:896/1280
+	earlyD_epoch:0/1: 	Acc:0.9538, 1.0000
+	D_epoch:0/1: 	Acc:0.9538, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:897/1280
+	earlyD_epoch:0/1: 	Acc:0.8436, 1.0000
+	D_epoch:0/1: 	Acc:0.8436, 1.0000
+	G_epoch:0/1: GAcc:0.0468	
+
+epoch:898/1280
+	earlyD_epoch:0/1: 	Acc:0.9861, 1.0000
+	D_epoch:0/1: 	Acc:0.9861, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:899/1280
+	earlyD_epoch:0/1: 	Acc:0.7956, 1.0000
+	D_epoch:0/1: 	Acc:0.7956, 1.0000
+	G_epoch:0/1: GAcc:0.9849	
+savepoint
+
+epoch:900/1280
+	earlyD_epoch:0/1: 	Acc:0.8425, 1.0000
+	D_epoch:0/1: 	Acc:0.8425, 1.0000
+	G_epoch:0/1: GAcc:0.9400	
+
+epoch:901/1280
+	earlyD_epoch:0/1: 	Acc:0.9689, 1.0000
+	D_epoch:0/1: 	Acc:0.9689, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:902/1280
+	earlyD_epoch:0/1: 	Acc:0.9394, 1.0000
+	D_epoch:0/1: 	Acc:0.9394, 1.0000
+	G_epoch:0/1: GAcc:0.0666	
+
+epoch:903/1280
+	earlyD_epoch:0/1: 	Acc:0.8864, 1.0000
+	D_epoch:0/1: 	Acc:0.8864, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:904/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:905/1280
+	earlyD_epoch:0/1: 	Acc:0.4892, 1.0000
+	D_epoch:0/1: 	Acc:0.4892, 1.0000
+	G_epoch:0/1: GAcc:0.9998	
+
+epoch:906/1280
+	earlyD_epoch:0/1: 	Acc:0.9355, 1.0000
+	D_epoch:0/1: 	Acc:0.9355, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:907/1280
+	earlyD_epoch:0/1: 	Acc:0.9587, 1.0000
+	D_epoch:0/1: 	Acc:0.9587, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:908/1280
+	earlyD_epoch:0/1: 	Acc:0.9494, 1.0000
+	D_epoch:0/1: 	Acc:0.9494, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:909/1280
+	earlyD_epoch:0/1: 	Acc:0.9626, 1.0000
+	D_epoch:0/1: 	Acc:0.9626, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:910/1280
+	earlyD_epoch:0/1: 	Acc:0.9760, 1.0000
+	D_epoch:0/1: 	Acc:0.9760, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:911/1280
+	earlyD_epoch:0/1: 	Acc:0.9757, 1.0000
+	D_epoch:0/1: 	Acc:0.9757, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:912/1280
+	earlyD_epoch:0/1: 	Acc:0.9575, 1.0000
+	D_epoch:0/1: 	Acc:0.9575, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:913/1280
+	earlyD_epoch:0/1: 	Acc:0.9715, 1.0000
+	D_epoch:0/1: 	Acc:0.9715, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:914/1280
+	earlyD_epoch:0/1: 	Acc:0.9415, 1.0000
+	D_epoch:0/1: 	Acc:0.9415, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:915/1280
+	earlyD_epoch:0/1: 	Acc:0.9902, 1.0000
+	D_epoch:0/1: 	Acc:0.9902, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:916/1280
+	earlyD_epoch:0/1: 	Acc:0.9615, 1.0000
+	D_epoch:0/1: 	Acc:0.9615, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:917/1280
+	earlyD_epoch:0/1: 	Acc:0.9877, 1.0000
+	D_epoch:0/1: 	Acc:0.9877, 1.0000
+	G_epoch:0/1: GAcc:0.0001	
+
+epoch:918/1280
+	earlyD_epoch:0/1: 	Acc:0.9040, 1.0000
+	D_epoch:0/1: 	Acc:0.9040, 1.0000
+	G_epoch:0/1: GAcc:0.1631	
+
+epoch:919/1280
+	earlyD_epoch:0/1: 	Acc:0.9996, 1.0000
+	D_epoch:0/1: 	Acc:0.9996, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+savepoint
+
+epoch:920/1280
+	earlyD_epoch:0/1: 	Acc:0.6533, 1.0000
+	D_epoch:0/1: 	Acc:0.6533, 1.0000
+	G_epoch:0/1: GAcc:0.9705	
+
+epoch:921/1280
+	earlyD_epoch:0/1: 	Acc:0.7734, 1.0000
+	D_epoch:0/1: 	Acc:0.7734, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:922/1280
+	earlyD_epoch:0/1: 	Acc:0.7516, 1.0000
+	D_epoch:0/1: 	Acc:0.7516, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:923/1280
+	earlyD_epoch:0/1: 	Acc:0.7735, 1.0000
+	D_epoch:0/1: 	Acc:0.7735, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:924/1280
+	earlyD_epoch:0/1: 	Acc:0.7070, 1.0000
+	D_epoch:0/1: 	Acc:0.7070, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:925/1280
+	earlyD_epoch:0/1: 	Acc:0.7894, 1.0000
+	D_epoch:0/1: 	Acc:0.7894, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:926/1280
+	earlyD_epoch:0/1: 	Acc:0.7126, 1.0000
+	D_epoch:0/1: 	Acc:0.7126, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:927/1280
+	earlyD_epoch:0/1: 	Acc:0.7351, 1.0000
+	D_epoch:0/1: 	Acc:0.7351, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:928/1280
+	earlyD_epoch:0/1: 	Acc:0.8246, 1.0000
+	D_epoch:0/1: 	Acc:0.8246, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:929/1280
+	earlyD_epoch:0/1: 	Acc:0.7826, 1.0000
+	D_epoch:0/1: 	Acc:0.7826, 1.0000
+	G_epoch:0/1: GAcc:0.4550	
+
+epoch:930/1280
+	earlyD_epoch:0/1: 	Acc:0.9286, 1.0000
+	D_epoch:0/1: 	Acc:0.9286, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:931/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:932/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:933/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:934/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:935/1280
+	D_epoch:0/1: 	Acc:0.8514, 0.5163
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:936/1280
+	earlyD_epoch:0/1: 	Acc:0.9086, 1.0000
+	D_epoch:0/1: 	Acc:0.9086, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:937/1280
+	earlyD_epoch:0/1: 	Acc:0.9551, 0.9999
+	D_epoch:0/1: 	Acc:0.9551, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:938/1280
+	earlyD_epoch:0/1: 	Acc:0.8538, 0.9999
+	D_epoch:0/1: 	Acc:0.8538, 0.9999
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:939/1280
+	earlyD_epoch:0/1: 	Acc:0.7315, 1.0000
+	D_epoch:0/1: 	Acc:0.7315, 1.0000
+	G_epoch:0/1: GAcc:0.7459	
+savepoint
+
+epoch:940/1280
+	earlyD_epoch:0/1: 	Acc:0.9797, 1.0000
+	D_epoch:0/1: 	Acc:0.9797, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:941/1280
+	earlyD_epoch:0/1: 	Acc:0.9506, 1.0000
+	D_epoch:0/1: 	Acc:0.9506, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:942/1280
+	earlyD_epoch:0/1: 	Acc:0.9542, 1.0000
+	D_epoch:0/1: 	Acc:0.9542, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:943/1280
+	earlyD_epoch:0/1: 	Acc:0.9450, 1.0000
+	D_epoch:0/1: 	Acc:0.9450, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:944/1280
+	earlyD_epoch:0/1: 	Acc:0.9208, 1.0000
+	D_epoch:0/1: 	Acc:0.9208, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:945/1280
+	earlyD_epoch:0/1: 	Acc:0.9434, 1.0000
+	D_epoch:0/1: 	Acc:0.9434, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:946/1280
+	earlyD_epoch:0/1: 	Acc:0.9641, 1.0000
+	D_epoch:0/1: 	Acc:0.9641, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:947/1280
+	earlyD_epoch:0/1: 	Acc:0.9557, 1.0000
+	D_epoch:0/1: 	Acc:0.9557, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:948/1280
+	earlyD_epoch:0/1: 	Acc:0.9488, 1.0000
+	D_epoch:0/1: 	Acc:0.9488, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:949/1280
+	earlyD_epoch:0/1: 	Acc:0.9479, 1.0000
+	D_epoch:0/1: 	Acc:0.9479, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:950/1280
+	earlyD_epoch:0/1: 	Acc:0.9629, 1.0000
+	D_epoch:0/1: 	Acc:0.9629, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:951/1280
+	earlyD_epoch:0/1: 	Acc:0.9444, 1.0000
+	D_epoch:0/1: 	Acc:0.9444, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:952/1280
+	earlyD_epoch:0/1: 	Acc:0.9660, 1.0000
+	D_epoch:0/1: 	Acc:0.9660, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:953/1280
+	earlyD_epoch:0/1: 	Acc:0.9350, 0.9999
+	D_epoch:0/1: 	Acc:0.9350, 0.9999
+	G_epoch:0/1: GAcc:0.9812	
+
+epoch:954/1280
+	earlyD_epoch:0/1: 	Acc:0.9417, 1.0000
+	D_epoch:0/1: 	Acc:0.9417, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:955/1280
+	earlyD_epoch:0/1: 	Acc:0.9457, 1.0000
+	D_epoch:0/1: 	Acc:0.9457, 1.0000
+	G_epoch:0/1: GAcc:0.2425	
+
+epoch:956/1280
+	earlyD_epoch:0/1: 	Acc:0.5416, 1.0000
+	D_epoch:0/1: 	Acc:0.5416, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:957/1280
+	earlyD_epoch:0/1: 	Acc:0.9817, 1.0000
+	D_epoch:0/1: 	Acc:0.9817, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:958/1280
+	earlyD_epoch:0/1: 	Acc:0.9208, 1.0000
+	D_epoch:0/1: 	Acc:0.9208, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:959/1280
+	earlyD_epoch:0/1: 	Acc:0.9481, 1.0000
+	D_epoch:0/1: 	Acc:0.9481, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+savepoint
+
+epoch:960/1280
+	earlyD_epoch:0/1: 	Acc:0.8542, 1.0000
+	D_epoch:0/1: 	Acc:0.8542, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:961/1280
+	earlyD_epoch:0/1: 	Acc:0.9581, 0.9999
+	D_epoch:0/1: 	Acc:0.9581, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:962/1280
+	earlyD_epoch:0/1: 	Acc:0.9242, 1.0000
+	D_epoch:0/1: 	Acc:0.9242, 1.0000
+	G_epoch:0/1: GAcc:0.8819	
+
+epoch:963/1280
+	earlyD_epoch:0/1: 	Acc:0.9925, 1.0000
+	D_epoch:0/1: 	Acc:0.9925, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:964/1280
+	earlyD_epoch:0/1: 	Acc:0.7101, 1.0000
+	D_epoch:0/1: 	Acc:0.7101, 1.0000
+	G_epoch:0/1: GAcc:0.9998	
+
+epoch:965/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:966/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:967/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:968/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:969/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:970/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:971/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:972/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:973/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:974/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:975/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:976/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:977/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:978/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:979/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+savepoint
+
+epoch:980/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:981/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:982/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:983/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:984/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:985/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:986/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:987/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:988/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:989/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:990/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:991/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:992/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:993/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:994/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:995/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:996/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:997/1280
+	earlyD_epoch:0/1: 	Acc:0.8831, 1.0000
+	D_epoch:0/1: 	Acc:0.8831, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:998/1280
+	earlyD_epoch:0/1: 	Acc:0.7163, 1.0000
+	D_epoch:0/1: 	Acc:0.7163, 1.0000
+	G_epoch:0/1: GAcc:0.4261	
+
+epoch:999/1280
+	earlyD_epoch:0/1: 	Acc:0.9903, 1.0000
+	D_epoch:0/1: 	Acc:0.9903, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1000/1280
+	earlyD_epoch:0/1: 	Acc:0.9864, 1.0000
+	D_epoch:0/1: 	Acc:0.9864, 1.0000
+	G_epoch:0/1: GAcc:0.0001	
+
+epoch:1001/1280
+	earlyD_epoch:0/1: 	Acc:0.9853, 1.0000
+	D_epoch:0/1: 	Acc:0.9853, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1002/1280
+	earlyD_epoch:0/1: 	Acc:0.9806, 1.0000
+	D_epoch:0/1: 	Acc:0.9806, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1003/1280
+	earlyD_epoch:0/1: 	Acc:0.9710, 1.0000
+	D_epoch:0/1: 	Acc:0.9710, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1004/1280
+	earlyD_epoch:0/1: 	Acc:0.9665, 1.0000
+	D_epoch:0/1: 	Acc:0.9665, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1005/1280
+	earlyD_epoch:0/1: 	Acc:0.9910, 1.0000
+	D_epoch:0/1: 	Acc:0.9910, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1006/1280
+	earlyD_epoch:0/1: 	Acc:0.9869, 1.0000
+	D_epoch:0/1: 	Acc:0.9869, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1007/1280
+	earlyD_epoch:0/1: 	Acc:0.9828, 1.0000
+	D_epoch:0/1: 	Acc:0.9828, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1008/1280
+	earlyD_epoch:0/1: 	Acc:0.9697, 1.0000
+	D_epoch:0/1: 	Acc:0.9697, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1009/1280
+	earlyD_epoch:0/1: 	Acc:0.9681, 1.0000
+	D_epoch:0/1: 	Acc:0.9681, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1010/1280
+	earlyD_epoch:0/1: 	Acc:0.9697, 1.0000
+	D_epoch:0/1: 	Acc:0.9697, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1011/1280
+	earlyD_epoch:0/1: 	Acc:0.9710, 1.0000
+	D_epoch:0/1: 	Acc:0.9710, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1012/1280
+	earlyD_epoch:0/1: 	Acc:0.9826, 1.0000
+	D_epoch:0/1: 	Acc:0.9826, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1013/1280
+	earlyD_epoch:0/1: 	Acc:0.9708, 1.0000
+	D_epoch:0/1: 	Acc:0.9708, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1014/1280
+	earlyD_epoch:0/1: 	Acc:0.9689, 1.0000
+	D_epoch:0/1: 	Acc:0.9689, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1015/1280
+	earlyD_epoch:0/1: 	Acc:0.9732, 1.0000
+	D_epoch:0/1: 	Acc:0.9732, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1016/1280
+	earlyD_epoch:0/1: 	Acc:0.9674, 1.0000
+	D_epoch:0/1: 	Acc:0.9674, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1017/1280
+	earlyD_epoch:0/1: 	Acc:0.9558, 1.0000
+	D_epoch:0/1: 	Acc:0.9558, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1018/1280
+	earlyD_epoch:0/1: 	Acc:0.9650, 1.0000
+	D_epoch:0/1: 	Acc:0.9650, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1019/1280
+	earlyD_epoch:0/1: 	Acc:0.9461, 1.0000
+	D_epoch:0/1: 	Acc:0.9461, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1020/1280
+	earlyD_epoch:0/1: 	Acc:0.9588, 1.0000
+	D_epoch:0/1: 	Acc:0.9588, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1021/1280
+	earlyD_epoch:0/1: 	Acc:0.9773, 1.0000
+	D_epoch:0/1: 	Acc:0.9773, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1022/1280
+	earlyD_epoch:0/1: 	Acc:0.9972, 1.0000
+	D_epoch:0/1: 	Acc:0.9972, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1023/1280
+	earlyD_epoch:0/1: 	Acc:0.9689, 1.0000
+	D_epoch:0/1: 	Acc:0.9689, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1024/1280
+	earlyD_epoch:0/1: 	Acc:0.9877, 1.0000
+	D_epoch:0/1: 	Acc:0.9877, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1025/1280
+	earlyD_epoch:0/1: 	Acc:0.9778, 1.0000
+	D_epoch:0/1: 	Acc:0.9778, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1026/1280
+	earlyD_epoch:0/1: 	Acc:0.9293, 1.0000
+	D_epoch:0/1: 	Acc:0.9293, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1027/1280
+	earlyD_epoch:0/1: 	Acc:0.9812, 1.0000
+	D_epoch:0/1: 	Acc:0.9812, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1028/1280
+	earlyD_epoch:0/1: 	Acc:0.9700, 1.0000
+	D_epoch:0/1: 	Acc:0.9700, 1.0000
+	G_epoch:0/1: GAcc:0.0002	
+
+epoch:1029/1280
+	earlyD_epoch:0/1: 	Acc:0.9724, 1.0000
+	D_epoch:0/1: 	Acc:0.9724, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1030/1280
+	earlyD_epoch:0/1: 	Acc:0.9265, 1.0000
+	D_epoch:0/1: 	Acc:0.9265, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1031/1280
+	earlyD_epoch:0/1: 	Acc:0.6949, 1.0000
+	D_epoch:0/1: 	Acc:0.6949, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1032/1280
+	earlyD_epoch:0/1: 	Acc:0.9541, 1.0000
+	D_epoch:0/1: 	Acc:0.9541, 1.0000
+	G_epoch:0/1: GAcc:0.8109	
+
+epoch:1033/1280
+	earlyD_epoch:0/1: 	Acc:0.9874, 1.0000
+	D_epoch:0/1: 	Acc:0.9874, 1.0000
+	G_epoch:0/1: GAcc:0.1591	
+
+epoch:1034/1280
+	earlyD_epoch:0/1: 	Acc:0.9151, 1.0000
+	D_epoch:0/1: 	Acc:0.9151, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1035/1280
+	earlyD_epoch:0/1: 	Acc:0.9666, 1.0000
+	D_epoch:0/1: 	Acc:0.9666, 1.0000
+	G_epoch:0/1: GAcc:0.9960	
+
+epoch:1036/1280
+	earlyD_epoch:0/1: 	Acc:0.7155, 1.0000
+	D_epoch:0/1: 	Acc:0.7155, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1037/1280
+	earlyD_epoch:0/1: 	Acc:0.7333, 1.0000
+	D_epoch:0/1: 	Acc:0.7333, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1038/1280
+	earlyD_epoch:0/1: 	Acc:0.6547, 1.0000
+	D_epoch:0/1: 	Acc:0.6547, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1039/1280
+	earlyD_epoch:0/1: 	Acc:0.7447, 1.0000
+	D_epoch:0/1: 	Acc:0.7447, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1040/1280
+	earlyD_epoch:0/1: 	Acc:0.6710, 1.0000
+	D_epoch:0/1: 	Acc:0.6710, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1041/1280
+	earlyD_epoch:0/1: 	Acc:0.7882, 1.0000
+	D_epoch:0/1: 	Acc:0.7882, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1042/1280
+	earlyD_epoch:0/1: 	Acc:0.7197, 1.0000
+	D_epoch:0/1: 	Acc:0.7197, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1043/1280
+	earlyD_epoch:0/1: 	Acc:0.6965, 1.0000
+	D_epoch:0/1: 	Acc:0.6965, 1.0000
+	G_epoch:0/1: GAcc:0.0001	
+
+epoch:1044/1280
+	earlyD_epoch:0/1: 	Acc:0.7537, 1.0000
+	D_epoch:0/1: 	Acc:0.7537, 1.0000
+	G_epoch:0/1: GAcc:0.0001	
+
+epoch:1045/1280
+	earlyD_epoch:0/1: 	Acc:0.5284, 1.0000
+	D_epoch:0/1: 	Acc:0.5284, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1046/1280
+	earlyD_epoch:0/1: 	Acc:0.7567, 1.0000
+	D_epoch:0/1: 	Acc:0.7567, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1047/1280
+	earlyD_epoch:0/1: 	Acc:0.9859, 1.0000
+	D_epoch:0/1: 	Acc:0.9859, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1048/1280
+	earlyD_epoch:0/1: 	Acc:0.9887, 1.0000
+	D_epoch:0/1: 	Acc:0.9887, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1049/1280
+	earlyD_epoch:0/1: 	Acc:0.9983, 1.0000
+	D_epoch:0/1: 	Acc:0.9983, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1050/1280
+	earlyD_epoch:0/1: 	Acc:0.9973, 1.0000
+	D_epoch:0/1: 	Acc:0.9973, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1051/1280
+	earlyD_epoch:0/1: 	Acc:0.9975, 1.0000
+	D_epoch:0/1: 	Acc:0.9975, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1052/1280
+	earlyD_epoch:0/1: 	Acc:0.9971, 1.0000
+	D_epoch:0/1: 	Acc:0.9971, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1053/1280
+	earlyD_epoch:0/1: 	Acc:0.9870, 1.0000
+	D_epoch:0/1: 	Acc:0.9870, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1054/1280
+	earlyD_epoch:0/1: 	Acc:0.9926, 1.0000
+	D_epoch:0/1: 	Acc:0.9926, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1055/1280
+	earlyD_epoch:0/1: 	Acc:0.9940, 1.0000
+	D_epoch:0/1: 	Acc:0.9940, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1056/1280
+	earlyD_epoch:0/1: 	Acc:0.9975, 1.0000
+	D_epoch:0/1: 	Acc:0.9975, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1057/1280
+	earlyD_epoch:0/1: 	Acc:0.9951, 1.0000
+	D_epoch:0/1: 	Acc:0.9951, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1058/1280
+	earlyD_epoch:0/1: 	Acc:0.9938, 1.0000
+	D_epoch:0/1: 	Acc:0.9938, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1059/1280
+	earlyD_epoch:0/1: 	Acc:0.9901, 1.0000
+	D_epoch:0/1: 	Acc:0.9901, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1060/1280
+	earlyD_epoch:0/1: 	Acc:0.9976, 1.0000
+	D_epoch:0/1: 	Acc:0.9976, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1061/1280
+	earlyD_epoch:0/1: 	Acc:0.9804, 1.0000
+	D_epoch:0/1: 	Acc:0.9804, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1062/1280
+	earlyD_epoch:0/1: 	Acc:0.9882, 1.0000
+	D_epoch:0/1: 	Acc:0.9882, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1063/1280
+	earlyD_epoch:0/1: 	Acc:0.9944, 1.0000
+	D_epoch:0/1: 	Acc:0.9944, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1064/1280
+	earlyD_epoch:0/1: 	Acc:0.9935, 1.0000
+	D_epoch:0/1: 	Acc:0.9935, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1065/1280
+	earlyD_epoch:0/1: 	Acc:0.9967, 1.0000
+	D_epoch:0/1: 	Acc:0.9967, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1066/1280
+	earlyD_epoch:0/1: 	Acc:0.9897, 1.0000
+	D_epoch:0/1: 	Acc:0.9897, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1067/1280
+	earlyD_epoch:0/1: 	Acc:0.9844, 1.0000
+	D_epoch:0/1: 	Acc:0.9844, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1068/1280
+	earlyD_epoch:0/1: 	Acc:0.9850, 1.0000
+	D_epoch:0/1: 	Acc:0.9850, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1069/1280
+	earlyD_epoch:0/1: 	Acc:0.9867, 1.0000
+	D_epoch:0/1: 	Acc:0.9867, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1070/1280
+	earlyD_epoch:0/1: 	Acc:0.9840, 1.0000
+	D_epoch:0/1: 	Acc:0.9840, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1071/1280
+	earlyD_epoch:0/1: 	Acc:0.9926, 1.0000
+	D_epoch:0/1: 	Acc:0.9926, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1072/1280
+	earlyD_epoch:0/1: 	Acc:0.9935, 1.0000
+	D_epoch:0/1: 	Acc:0.9935, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1073/1280
+	earlyD_epoch:0/1: 	Acc:0.9956, 1.0000
+	D_epoch:0/1: 	Acc:0.9956, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1074/1280
+	earlyD_epoch:0/1: 	Acc:0.9914, 1.0000
+	D_epoch:0/1: 	Acc:0.9914, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1075/1280
+	earlyD_epoch:0/1: 	Acc:0.9883, 1.0000
+	D_epoch:0/1: 	Acc:0.9883, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1076/1280
+	earlyD_epoch:0/1: 	Acc:0.9702, 1.0000
+	D_epoch:0/1: 	Acc:0.9702, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1077/1280
+	earlyD_epoch:0/1: 	Acc:0.9642, 1.0000
+	D_epoch:0/1: 	Acc:0.9642, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1078/1280
+	earlyD_epoch:0/1: 	Acc:0.7220, 0.9999
+	D_epoch:0/1: 	Acc:0.7220, 0.9999
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1079/1280
+	earlyD_epoch:0/1: 	Acc:0.8420, 1.0000
+	D_epoch:0/1: 	Acc:0.8420, 1.0000
+	G_epoch:0/1: GAcc:0.0004	
+savepoint
+
+epoch:1080/1280
+	earlyD_epoch:0/1: 	Acc:0.7978, 1.0000
+	D_epoch:0/1: 	Acc:0.7978, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1081/1280
+	earlyD_epoch:0/1: 	Acc:0.8235, 1.0000
+	D_epoch:0/1: 	Acc:0.8235, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1082/1280
+	earlyD_epoch:0/1: 	Acc:0.9625, 0.9999
+	D_epoch:0/1: 	Acc:0.9625, 0.9999
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1083/1280
+	earlyD_epoch:0/1: 	Acc:0.8797, 1.0000
+	D_epoch:0/1: 	Acc:0.8797, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1084/1280
+	earlyD_epoch:0/1: 	Acc:0.3714, 1.0000
+	D_epoch:0/1: 	Acc:0.3714, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1085/1280
+	earlyD_epoch:0/1: 	Acc:0.9255, 1.0000
+	D_epoch:0/1: 	Acc:0.9255, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1086/1280
+	earlyD_epoch:0/1: 	Acc:0.9541, 1.0000
+	D_epoch:0/1: 	Acc:0.9541, 1.0000
+	G_epoch:0/1: GAcc:0.9378	
+
+epoch:1087/1280
+	earlyD_epoch:0/1: 	Acc:0.8856, 1.0000
+	D_epoch:0/1: 	Acc:0.8856, 1.0000
+	G_epoch:0/1: GAcc:0.9403	
+
+epoch:1088/1280
+	earlyD_epoch:0/1: 	Acc:0.8120, 1.0000
+	D_epoch:0/1: 	Acc:0.8120, 1.0000
+	G_epoch:0/1: GAcc:0.8006	
+
+epoch:1089/1280
+	earlyD_epoch:0/1: 	Acc:0.7282, 1.0000
+	D_epoch:0/1: 	Acc:0.7282, 1.0000
+	G_epoch:0/1: GAcc:0.9988	
+
+epoch:1090/1280
+	D_epoch:0/1: 	Acc:0.9996, 0.0001
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1091/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1092/1280
+	earlyD_epoch:0/1: 	Acc:0.8442, 0.9999
+	D_epoch:0/1: 	Acc:0.8442, 0.9999
+	G_epoch:0/1: GAcc:0.7107	
+
+epoch:1093/1280
+	earlyD_epoch:0/1: 	Acc:0.9624, 1.0000
+	D_epoch:0/1: 	Acc:0.9624, 1.0000
+	G_epoch:0/1: GAcc:0.9713	
+
+epoch:1094/1280
+	earlyD_epoch:0/1: 	Acc:0.7242, 1.0000
+	D_epoch:0/1: 	Acc:0.7242, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1095/1280
+	earlyD_epoch:0/1: 	Acc:0.8160, 1.0000
+	D_epoch:0/1: 	Acc:0.8160, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1096/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1097/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1098/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1099/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+savepoint
+
+epoch:1100/1280
+	earlyD_epoch:0/1: 	Acc:0.8853, 1.0000
+	D_epoch:0/1: 	Acc:0.8853, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1101/1280
+	earlyD_epoch:0/1: 	Acc:0.8635, 1.0000
+	D_epoch:0/1: 	Acc:0.8635, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1102/1280
+	earlyD_epoch:0/1: 	Acc:0.9531, 1.0000
+	D_epoch:0/1: 	Acc:0.9531, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1103/1280
+	earlyD_epoch:0/1: 	Acc:0.8716, 1.0000
+	D_epoch:0/1: 	Acc:0.8716, 1.0000
+	G_epoch:0/1: GAcc:0.0003	
+
+epoch:1104/1280
+	earlyD_epoch:0/1: 	Acc:0.9206, 1.0000
+	D_epoch:0/1: 	Acc:0.9206, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1105/1280
+	earlyD_epoch:0/1: 	Acc:0.8604, 1.0000
+	D_epoch:0/1: 	Acc:0.8604, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1106/1280
+	earlyD_epoch:0/1: 	Acc:0.9247, 1.0000
+	D_epoch:0/1: 	Acc:0.9247, 1.0000
+	G_epoch:0/1: GAcc:0.0027	
+
+epoch:1107/1280
+	earlyD_epoch:0/1: 	Acc:0.8768, 1.0000
+	D_epoch:0/1: 	Acc:0.8768, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1108/1280
+	earlyD_epoch:0/1: 	Acc:0.8539, 1.0000
+	D_epoch:0/1: 	Acc:0.8539, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1109/1280
+	earlyD_epoch:0/1: 	Acc:0.8750, 1.0000
+	D_epoch:0/1: 	Acc:0.8750, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1110/1280
+	earlyD_epoch:0/1: 	Acc:0.8999, 1.0000
+	D_epoch:0/1: 	Acc:0.8999, 1.0000
+	G_epoch:0/1: GAcc:0.9578	
+
+epoch:1111/1280
+	earlyD_epoch:0/1: 	Acc:0.8141, 1.0000
+	D_epoch:0/1: 	Acc:0.8141, 1.0000
+	G_epoch:0/1: GAcc:0.6496	
+
+epoch:1112/1280
+	earlyD_epoch:0/1: 	Acc:0.9752, 1.0000
+	D_epoch:0/1: 	Acc:0.9752, 1.0000
+	G_epoch:0/1: GAcc:0.6693	
+
+epoch:1113/1280
+	earlyD_epoch:0/1: 	Acc:0.9924, 1.0000
+	D_epoch:0/1: 	Acc:0.9924, 1.0000
+	G_epoch:0/1: GAcc:0.3210	
+
+epoch:1114/1280
+	earlyD_epoch:0/1: 	Acc:0.9348, 1.0000
+	D_epoch:0/1: 	Acc:0.9348, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1115/1280
+	D_epoch:0/1: 	Acc:0.9985, 0.0001
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1116/1280
+	earlyD_epoch:0/1: 	Acc:0.8100, 1.0000
+	D_epoch:0/1: 	Acc:0.8100, 1.0000
+	G_epoch:0/1: GAcc:0.9976	
+
+epoch:1117/1280
+	earlyD_epoch:0/1: 	Acc:0.5212, 1.0000
+	D_epoch:0/1: 	Acc:0.5212, 1.0000
+	G_epoch:0/1: GAcc:0.8043	
+
+epoch:1118/1280
+	earlyD_epoch:0/1: 	Acc:0.9832, 1.0000
+	D_epoch:0/1: 	Acc:0.9832, 1.0000
+	G_epoch:0/1: GAcc:0.7742	
+
+epoch:1119/1280
+	earlyD_epoch:0/1: 	Acc:0.5998, 1.0000
+	D_epoch:0/1: 	Acc:0.5998, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+savepoint
+
+epoch:1120/1280
+	earlyD_epoch:0/1: 	Acc:0.8782, 1.0000
+	D_epoch:0/1: 	Acc:0.8782, 1.0000
+	G_epoch:0/1: GAcc:0.5232	
+
+epoch:1121/1280
+	earlyD_epoch:0/1: 	Acc:0.9311, 1.0000
+	D_epoch:0/1: 	Acc:0.9311, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1122/1280
+	earlyD_epoch:0/1: 	Acc:0.6547, 1.0000
+	D_epoch:0/1: 	Acc:0.6547, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1123/1280
+	earlyD_epoch:0/1: 	Acc:0.9938, 1.0000
+	D_epoch:0/1: 	Acc:0.9938, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1124/1280
+	earlyD_epoch:0/1: 	Acc:0.9928, 1.0000
+	D_epoch:0/1: 	Acc:0.9928, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1125/1280
+	earlyD_epoch:0/1: 	Acc:0.9806, 1.0000
+	D_epoch:0/1: 	Acc:0.9806, 1.0000
+	G_epoch:0/1: GAcc:0.9945	
+
+epoch:1126/1280
+	earlyD_epoch:0/1: 	Acc:0.9274, 1.0000
+	D_epoch:0/1: 	Acc:0.9274, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1127/1280
+	earlyD_epoch:0/1: 	Acc:0.8069, 0.9999
+	D_epoch:0/1: 	Acc:0.8069, 0.9999
+	G_epoch:0/1: GAcc:0.9995	
+
+epoch:1128/1280
+	earlyD_epoch:0/1: 	Acc:0.8319, 1.0000
+	D_epoch:0/1: 	Acc:0.8319, 1.0000
+	G_epoch:0/1: GAcc:0.0014	
+
+epoch:1129/1280
+	earlyD_epoch:0/1: 	Acc:0.7717, 1.0000
+	D_epoch:0/1: 	Acc:0.7717, 1.0000
+	G_epoch:0/1: GAcc:0.6291	
+
+epoch:1130/1280
+	earlyD_epoch:0/1: 	Acc:0.9464, 1.0000
+	D_epoch:0/1: 	Acc:0.9464, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1131/1280
+	earlyD_epoch:0/1: 	Acc:0.9670, 1.0000
+	D_epoch:0/1: 	Acc:0.9670, 1.0000
+	G_epoch:0/1: GAcc:0.0078	
+
+epoch:1132/1280
+	earlyD_epoch:0/1: 	Acc:0.9026, 0.9999
+	D_epoch:0/1: 	Acc:0.9026, 0.9999
+	G_epoch:0/1: GAcc:0.8902	
+
+epoch:1133/1280
+	earlyD_epoch:0/1: 	Acc:0.9237, 1.0000
+	D_epoch:0/1: 	Acc:0.9237, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1134/1280
+	earlyD_epoch:0/1: 	Acc:0.8795, 1.0000
+	D_epoch:0/1: 	Acc:0.8795, 1.0000
+	G_epoch:0/1: GAcc:0.4915	
+
+epoch:1135/1280
+	earlyD_epoch:0/1: 	Acc:0.9615, 1.0000
+	D_epoch:0/1: 	Acc:0.9615, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1136/1280
+	earlyD_epoch:0/1: 	Acc:0.6405, 0.9999
+	D_epoch:0/1: 	Acc:0.6405, 0.9999
+	G_epoch:0/1: GAcc:0.9997	
+
+epoch:1137/1280
+	earlyD_epoch:0/1: 	Acc:0.7398, 1.0000
+	D_epoch:0/1: 	Acc:0.7398, 1.0000
+	G_epoch:0/1: GAcc:0.9928	
+
+epoch:1138/1280
+	earlyD_epoch:0/1: 	Acc:0.8136, 1.0000
+	D_epoch:0/1: 	Acc:0.8136, 1.0000
+	G_epoch:0/1: GAcc:0.3497	
+
+epoch:1139/1280
+	earlyD_epoch:0/1: 	Acc:0.9726, 1.0000
+	D_epoch:0/1: 	Acc:0.9726, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+savepoint
+
+epoch:1140/1280
+	earlyD_epoch:0/1: 	Acc:0.7052, 1.0000
+	D_epoch:0/1: 	Acc:0.7052, 1.0000
+	G_epoch:0/1: GAcc:0.8854	
+
+epoch:1141/1280
+	earlyD_epoch:0/1: 	Acc:0.8747, 1.0000
+	D_epoch:0/1: 	Acc:0.8747, 1.0000
+	G_epoch:0/1: GAcc:0.9550	
+
+epoch:1142/1280
+	earlyD_epoch:0/1: 	Acc:0.9784, 0.9999
+	D_epoch:0/1: 	Acc:0.9784, 0.9999
+	G_epoch:0/1: GAcc:0.9779	
+
+epoch:1143/1280
+	earlyD_epoch:0/1: 	Acc:0.7902, 0.9999
+	D_epoch:0/1: 	Acc:0.7902, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1144/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1145/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1146/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1147/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1148/1280
+	earlyD_epoch:0/1: 	Acc:1.0000, 0.9999
+	D_epoch:0/1: 	Acc:1.0000, 0.9999
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1149/1280
+	earlyD_epoch:0/1: 	Acc:0.8200, 1.0000
+	D_epoch:0/1: 	Acc:0.8200, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1150/1280
+	earlyD_epoch:0/1: 	Acc:0.8048, 1.0000
+	D_epoch:0/1: 	Acc:0.8048, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1151/1280
+	earlyD_epoch:0/1: 	Acc:0.9109, 1.0000
+	D_epoch:0/1: 	Acc:0.9109, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1152/1280
+	earlyD_epoch:0/1: 	Acc:0.8153, 1.0000
+	D_epoch:0/1: 	Acc:0.8153, 1.0000
+	G_epoch:0/1: GAcc:0.0054	
+
+epoch:1153/1280
+	earlyD_epoch:0/1: 	Acc:0.7569, 1.0000
+	D_epoch:0/1: 	Acc:0.7569, 1.0000
+	G_epoch:0/1: GAcc:0.7803	
+
+epoch:1154/1280
+	earlyD_epoch:0/1: 	Acc:0.8432, 0.9999
+	D_epoch:0/1: 	Acc:0.8432, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1155/1280
+	earlyD_epoch:0/1: 	Acc:0.8171, 1.0000
+	D_epoch:0/1: 	Acc:0.8171, 1.0000
+	G_epoch:0/1: GAcc:0.4205	
+
+epoch:1156/1280
+	earlyD_epoch:0/1: 	Acc:0.9440, 0.9999
+	D_epoch:0/1: 	Acc:0.9440, 0.9999
+	G_epoch:0/1: GAcc:0.6829	
+
+epoch:1157/1280
+	earlyD_epoch:0/1: 	Acc:0.8671, 1.0000
+	D_epoch:0/1: 	Acc:0.8671, 1.0000
+	G_epoch:0/1: GAcc:0.9263	
+
+epoch:1158/1280
+	earlyD_epoch:0/1: 	Acc:0.9550, 0.9999
+	D_epoch:0/1: 	Acc:0.9550, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1159/1280
+	earlyD_epoch:0/1: 	Acc:0.6721, 1.0000
+	D_epoch:0/1: 	Acc:0.6721, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1160/1280
+	earlyD_epoch:0/1: 	Acc:0.6904, 1.0000
+	D_epoch:0/1: 	Acc:0.6904, 1.0000
+	G_epoch:0/1: GAcc:0.9074	
+
+epoch:1161/1280
+	earlyD_epoch:0/1: 	Acc:0.8630, 1.0000
+	D_epoch:0/1: 	Acc:0.8630, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1162/1280
+	earlyD_epoch:0/1: 	Acc:0.8868, 1.0000
+	D_epoch:0/1: 	Acc:0.8868, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1163/1280
+	earlyD_epoch:0/1: 	Acc:0.8312, 1.0000
+	D_epoch:0/1: 	Acc:0.8312, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1164/1280
+	earlyD_epoch:0/1: 	Acc:0.8277, 1.0000
+	D_epoch:0/1: 	Acc:0.8277, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1165/1280
+	earlyD_epoch:0/1: 	Acc:0.8669, 1.0000
+	D_epoch:0/1: 	Acc:0.8669, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1166/1280
+	earlyD_epoch:0/1: 	Acc:0.8102, 1.0000
+	D_epoch:0/1: 	Acc:0.8102, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1167/1280
+	earlyD_epoch:0/1: 	Acc:0.8643, 1.0000
+	D_epoch:0/1: 	Acc:0.8643, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1168/1280
+	earlyD_epoch:0/1: 	Acc:0.8213, 1.0000
+	D_epoch:0/1: 	Acc:0.8213, 1.0000
+	G_epoch:0/1: GAcc:0.4018	
+
+epoch:1169/1280
+	earlyD_epoch:0/1: 	Acc:0.9975, 1.0000
+	D_epoch:0/1: 	Acc:0.9975, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1170/1280
+	earlyD_epoch:0/1: 	Acc:0.9720, 1.0000
+	D_epoch:0/1: 	Acc:0.9720, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1171/1280
+	earlyD_epoch:0/1: 	Acc:0.5252, 1.0000
+	D_epoch:0/1: 	Acc:0.5252, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1172/1280
+	earlyD_epoch:0/1: 	Acc:0.7101, 1.0000
+	D_epoch:0/1: 	Acc:0.7101, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1173/1280
+	earlyD_epoch:0/1: 	Acc:0.9493, 1.0000
+	D_epoch:0/1: 	Acc:0.9493, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1174/1280
+	earlyD_epoch:0/1: 	Acc:0.9618, 1.0000
+	D_epoch:0/1: 	Acc:0.9618, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1175/1280
+	earlyD_epoch:0/1: 	Acc:0.9524, 1.0000
+	D_epoch:0/1: 	Acc:0.9524, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1176/1280
+	earlyD_epoch:0/1: 	Acc:0.9292, 1.0000
+	D_epoch:0/1: 	Acc:0.9292, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1177/1280
+	earlyD_epoch:0/1: 	Acc:0.9574, 1.0000
+	D_epoch:0/1: 	Acc:0.9574, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1178/1280
+	earlyD_epoch:0/1: 	Acc:0.9568, 1.0000
+	D_epoch:0/1: 	Acc:0.9568, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1179/1280
+	earlyD_epoch:0/1: 	Acc:0.6025, 1.0000
+	D_epoch:0/1: 	Acc:0.6025, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1180/1280
+	earlyD_epoch:0/1: 	Acc:0.7096, 1.0000
+	D_epoch:0/1: 	Acc:0.7096, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1181/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0001
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1182/1280
+	earlyD_epoch:0/1: 	Acc:0.6407, 1.0000
+	D_epoch:0/1: 	Acc:0.6407, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1183/1280
+	earlyD_epoch:0/1: 	Acc:0.9403, 1.0000
+	D_epoch:0/1: 	Acc:0.9403, 1.0000
+	G_epoch:0/1: GAcc:0.0005	
+
+epoch:1184/1280
+	earlyD_epoch:0/1: 	Acc:0.9679, 1.0000
+	D_epoch:0/1: 	Acc:0.9679, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1185/1280
+	earlyD_epoch:0/1: 	Acc:0.9828, 1.0000
+	D_epoch:0/1: 	Acc:0.9828, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1186/1280
+	earlyD_epoch:0/1: 	Acc:0.9623, 1.0000
+	D_epoch:0/1: 	Acc:0.9623, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1187/1280
+	earlyD_epoch:0/1: 	Acc:0.9525, 1.0000
+	D_epoch:0/1: 	Acc:0.9525, 1.0000
+	G_epoch:0/1: GAcc:0.9921	
+
+epoch:1188/1280
+	earlyD_epoch:0/1: 	Acc:0.9817, 1.0000
+	D_epoch:0/1: 	Acc:0.9817, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1189/1280
+	earlyD_epoch:0/1: 	Acc:0.6253, 1.0000
+	D_epoch:0/1: 	Acc:0.6253, 1.0000
+	G_epoch:0/1: GAcc:0.9383	
+
+epoch:1190/1280
+	earlyD_epoch:0/1: 	Acc:0.7934, 1.0000
+	D_epoch:0/1: 	Acc:0.7934, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1191/1280
+	earlyD_epoch:0/1: 	Acc:0.8218, 1.0000
+	D_epoch:0/1: 	Acc:0.8218, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1192/1280
+	earlyD_epoch:0/1: 	Acc:0.8170, 1.0000
+	D_epoch:0/1: 	Acc:0.8170, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1193/1280
+	earlyD_epoch:0/1: 	Acc:0.8107, 1.0000
+	D_epoch:0/1: 	Acc:0.8107, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1194/1280
+	earlyD_epoch:0/1: 	Acc:0.8009, 1.0000
+	D_epoch:0/1: 	Acc:0.8009, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1195/1280
+	earlyD_epoch:0/1: 	Acc:0.8490, 1.0000
+	D_epoch:0/1: 	Acc:0.8490, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1196/1280
+	earlyD_epoch:0/1: 	Acc:0.7904, 1.0000
+	D_epoch:0/1: 	Acc:0.7904, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1197/1280
+	earlyD_epoch:0/1: 	Acc:0.7713, 1.0000
+	D_epoch:0/1: 	Acc:0.7713, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1198/1280
+	earlyD_epoch:0/1: 	Acc:0.7998, 1.0000
+	D_epoch:0/1: 	Acc:0.7998, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1199/1280
+	earlyD_epoch:0/1: 	Acc:0.8991, 1.0000
+	D_epoch:0/1: 	Acc:0.8991, 1.0000
+	G_epoch:0/1: GAcc:0.8859	
+savepoint
+
+epoch:1200/1280
+	earlyD_epoch:0/1: 	Acc:0.8427, 1.0000
+	D_epoch:0/1: 	Acc:0.8427, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1201/1280
+	earlyD_epoch:0/1: 	Acc:0.7467, 1.0000
+	D_epoch:0/1: 	Acc:0.7467, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1202/1280
+	earlyD_epoch:0/1: 	Acc:0.8113, 1.0000
+	D_epoch:0/1: 	Acc:0.8113, 1.0000
+	G_epoch:0/1: GAcc:0.9010	
+
+epoch:1203/1280
+	earlyD_epoch:0/1: 	Acc:0.7655, 1.0000
+	D_epoch:0/1: 	Acc:0.7655, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1204/1280
+	earlyD_epoch:0/1: 	Acc:0.7501, 1.0000
+	D_epoch:0/1: 	Acc:0.7501, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1205/1280
+	earlyD_epoch:0/1: 	Acc:0.8156, 1.0000
+	D_epoch:0/1: 	Acc:0.8156, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1206/1280
+	earlyD_epoch:0/1: 	Acc:0.8495, 1.0000
+	D_epoch:0/1: 	Acc:0.8495, 1.0000
+	G_epoch:0/1: GAcc:0.8366	
+
+epoch:1207/1280
+	earlyD_epoch:0/1: 	Acc:0.7908, 1.0000
+	D_epoch:0/1: 	Acc:0.7908, 1.0000
+	G_epoch:0/1: GAcc:0.0260	
+
+epoch:1208/1280
+	earlyD_epoch:0/1: 	Acc:0.8990, 1.0000
+	D_epoch:0/1: 	Acc:0.8990, 1.0000
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1209/1280
+	D_epoch:0/1: 	Acc:1.0000, 0.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1210/1280
+	earlyD_epoch:0/1: 	Acc:0.6238, 1.0000
+	D_epoch:0/1: 	Acc:0.6238, 1.0000
+	G_epoch:0/1: GAcc:0.9432	
+
+epoch:1211/1280
+	earlyD_epoch:0/1: 	Acc:0.9312, 0.9999
+	D_epoch:0/1: 	Acc:0.9312, 0.9999
+	earlyG_epoch:0/1: GAcc:0.9999	
+	G_epoch:0/1: GAcc:0.9999	
+
+epoch:1212/1280
+	earlyD_epoch:0/1: 	Acc:0.8924, 1.0000
+	D_epoch:0/1: 	Acc:0.8924, 1.0000
+	G_epoch:0/1: GAcc:0.6814	
+
+epoch:1213/1280
+	earlyD_epoch:0/1: 	Acc:0.9790, 1.0000
+	D_epoch:0/1: 	Acc:0.9790, 1.0000
+	G_epoch:0/1: GAcc:0.4893	
+
+epoch:1214/1280
+	earlyD_epoch:0/1: 	Acc:0.9675, 1.0000
+	D_epoch:0/1: 	Acc:0.9675, 1.0000
+	G_epoch:0/1: GAcc:0.6858	
+
+epoch:1215/1280
+	earlyD_epoch:0/1: 	Acc:0.9453, 1.0000
+	D_epoch:0/1: 	Acc:0.9453, 1.0000
+	G_epoch:0/1: GAcc:0.9206	
+
+epoch:1216/1280
+	earlyD_epoch:0/1: 	Acc:0.9572, 1.0000
+	D_epoch:0/1: 	Acc:0.9572, 1.0000
+	G_epoch:0/1: GAcc:0.0053	
+
+epoch:1217/1280
+	earlyD_epoch:0/1: 	Acc:0.9319, 1.0000
+	D_epoch:0/1: 	Acc:0.9319, 1.0000
+	G_epoch:0/1: GAcc:0.3119	
+
+epoch:1218/1280
+	earlyD_epoch:0/1: 	Acc:0.9894, 1.0000
+	D_epoch:0/1: 	Acc:0.9894, 1.0000
+	G_epoch:0/1: GAcc:0.3125	
+
+epoch:1219/1280
+	earlyD_epoch:0/1: 	Acc:0.9996, 1.0000
+	D_epoch:0/1: 	Acc:0.9996, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1220/1280
+	earlyD_epoch:0/1: 	Acc:0.9920, 1.0000
+	D_epoch:0/1: 	Acc:0.9920, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1221/1280
+	earlyD_epoch:0/1: 	Acc:0.9923, 1.0000
+	D_epoch:0/1: 	Acc:0.9923, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1222/1280
+	earlyD_epoch:0/1: 	Acc:0.9856, 1.0000
+	D_epoch:0/1: 	Acc:0.9856, 1.0000
+	G_epoch:0/1: GAcc:0.3425	
+
+epoch:1223/1280
+	earlyD_epoch:0/1: 	Acc:0.9995, 1.0000
+	D_epoch:0/1: 	Acc:0.9995, 1.0000
+	G_epoch:0/1: GAcc:0.6677	
+
+epoch:1224/1280
+	earlyD_epoch:0/1: 	Acc:0.9822, 1.0000
+	D_epoch:0/1: 	Acc:0.9822, 1.0000
+	earlyG_epoch:0/1: GAcc:1.0000	
+	G_epoch:0/1: GAcc:1.0000	
+
+epoch:1225/1280
+	earlyD_epoch:0/1: 	Acc:0.9883, 1.0000
+	D_epoch:0/1: 	Acc:0.9883, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1226/1280
+	earlyD_epoch:0/1: 	Acc:0.9833, 1.0000
+	D_epoch:0/1: 	Acc:0.9833, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1227/1280
+	earlyD_epoch:0/1: 	Acc:0.9563, 1.0000
+	D_epoch:0/1: 	Acc:0.9563, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1228/1280
+	earlyD_epoch:0/1: 	Acc:0.9878, 1.0000
+	D_epoch:0/1: 	Acc:0.9878, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1229/1280
+	earlyD_epoch:0/1: 	Acc:0.9899, 1.0000
+	D_epoch:0/1: 	Acc:0.9899, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1230/1280
+	earlyD_epoch:0/1: 	Acc:0.9663, 1.0000
+	D_epoch:0/1: 	Acc:0.9663, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1231/1280
+	earlyD_epoch:0/1: 	Acc:0.9701, 1.0000
+	D_epoch:0/1: 	Acc:0.9701, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1232/1280
+	earlyD_epoch:0/1: 	Acc:0.9756, 1.0000
+	D_epoch:0/1: 	Acc:0.9756, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1233/1280
+	earlyD_epoch:0/1: 	Acc:0.9651, 1.0000
+	D_epoch:0/1: 	Acc:0.9651, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1234/1280
+	earlyD_epoch:0/1: 	Acc:0.9981, 1.0000
+	D_epoch:0/1: 	Acc:0.9981, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1235/1280
+	earlyD_epoch:0/1: 	Acc:0.9645, 1.0000
+	D_epoch:0/1: 	Acc:0.9645, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1236/1280
+	earlyD_epoch:0/1: 	Acc:0.9732, 1.0000
+	D_epoch:0/1: 	Acc:0.9732, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1237/1280
+	earlyD_epoch:0/1: 	Acc:0.9755, 1.0000
+	D_epoch:0/1: 	Acc:0.9755, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1238/1280
+	earlyD_epoch:0/1: 	Acc:0.9805, 1.0000
+	D_epoch:0/1: 	Acc:0.9805, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1239/1280
+	earlyD_epoch:0/1: 	Acc:0.9816, 1.0000
+	D_epoch:0/1: 	Acc:0.9816, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1240/1280
+	earlyD_epoch:0/1: 	Acc:0.9819, 1.0000
+	D_epoch:0/1: 	Acc:0.9819, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1241/1280
+	earlyD_epoch:0/1: 	Acc:0.9711, 1.0000
+	D_epoch:0/1: 	Acc:0.9711, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1242/1280
+	earlyD_epoch:0/1: 	Acc:0.9583, 1.0000
+	D_epoch:0/1: 	Acc:0.9583, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1243/1280
+	earlyD_epoch:0/1: 	Acc:0.9487, 1.0000
+	D_epoch:0/1: 	Acc:0.9487, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1244/1280
+	earlyD_epoch:0/1: 	Acc:0.9655, 1.0000
+	D_epoch:0/1: 	Acc:0.9655, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1245/1280
+	earlyD_epoch:0/1: 	Acc:0.9828, 1.0000
+	D_epoch:0/1: 	Acc:0.9828, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1246/1280
+	earlyD_epoch:0/1: 	Acc:0.9731, 1.0000
+	D_epoch:0/1: 	Acc:0.9731, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1247/1280
+	earlyD_epoch:0/1: 	Acc:0.9555, 1.0000
+	D_epoch:0/1: 	Acc:0.9555, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1248/1280
+	earlyD_epoch:0/1: 	Acc:0.9825, 1.0000
+	D_epoch:0/1: 	Acc:0.9825, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1249/1280
+	earlyD_epoch:0/1: 	Acc:0.9822, 1.0000
+	D_epoch:0/1: 	Acc:0.9822, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1250/1280
+	earlyD_epoch:0/1: 	Acc:0.9527, 1.0000
+	D_epoch:0/1: 	Acc:0.9527, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1251/1280
+	earlyD_epoch:0/1: 	Acc:0.9785, 1.0000
+	D_epoch:0/1: 	Acc:0.9785, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1252/1280
+	earlyD_epoch:0/1: 	Acc:0.9435, 1.0000
+	D_epoch:0/1: 	Acc:0.9435, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1253/1280
+	earlyD_epoch:0/1: 	Acc:0.9891, 1.0000
+	D_epoch:0/1: 	Acc:0.9891, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1254/1280
+	earlyD_epoch:0/1: 	Acc:0.9507, 1.0000
+	D_epoch:0/1: 	Acc:0.9507, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1255/1280
+	earlyD_epoch:0/1: 	Acc:0.9859, 1.0000
+	D_epoch:0/1: 	Acc:0.9859, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1256/1280
+	earlyD_epoch:0/1: 	Acc:0.9756, 1.0000
+	D_epoch:0/1: 	Acc:0.9756, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1257/1280
+	earlyD_epoch:0/1: 	Acc:0.9779, 1.0000
+	D_epoch:0/1: 	Acc:0.9779, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1258/1280
+	earlyD_epoch:0/1: 	Acc:0.9777, 1.0000
+	D_epoch:0/1: 	Acc:0.9777, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1259/1280
+	earlyD_epoch:0/1: 	Acc:0.9614, 1.0000
+	D_epoch:0/1: 	Acc:0.9614, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+savepoint
+
+epoch:1260/1280
+	earlyD_epoch:0/1: 	Acc:0.9633, 1.0000
+	D_epoch:0/1: 	Acc:0.9633, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1261/1280
+	earlyD_epoch:0/1: 	Acc:0.9627, 1.0000
+	D_epoch:0/1: 	Acc:0.9627, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1262/1280
+	earlyD_epoch:0/1: 	Acc:0.9629, 1.0000
+	D_epoch:0/1: 	Acc:0.9629, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1263/1280
+	earlyD_epoch:0/1: 	Acc:0.9635, 1.0000
+	D_epoch:0/1: 	Acc:0.9635, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1264/1280
+	earlyD_epoch:0/1: 	Acc:0.9758, 1.0000
+	D_epoch:0/1: 	Acc:0.9758, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1265/1280
+	earlyD_epoch:0/1: 	Acc:0.9733, 1.0000
+	D_epoch:0/1: 	Acc:0.9733, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1266/1280
+	earlyD_epoch:0/1: 	Acc:0.9966, 1.0000
+	D_epoch:0/1: 	Acc:0.9966, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1267/1280
+	earlyD_epoch:0/1: 	Acc:0.9812, 1.0000
+	D_epoch:0/1: 	Acc:0.9812, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1268/1280
+	earlyD_epoch:0/1: 	Acc:0.9884, 1.0000
+	D_epoch:0/1: 	Acc:0.9884, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1269/1280
+	earlyD_epoch:0/1: 	Acc:0.9726, 1.0000
+	D_epoch:0/1: 	Acc:0.9726, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1270/1280
+	earlyD_epoch:0/1: 	Acc:0.9540, 1.0000
+	D_epoch:0/1: 	Acc:0.9540, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1271/1280
+	earlyD_epoch:0/1: 	Acc:0.9739, 1.0000
+	D_epoch:0/1: 	Acc:0.9739, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1272/1280
+	earlyD_epoch:0/1: 	Acc:0.9590, 1.0000
+	D_epoch:0/1: 	Acc:0.9590, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1273/1280
+	earlyD_epoch:0/1: 	Acc:0.9796, 1.0000
+	D_epoch:0/1: 	Acc:0.9796, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1274/1280
+	earlyD_epoch:0/1: 	Acc:0.9860, 1.0000
+	D_epoch:0/1: 	Acc:0.9860, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1275/1280
+	earlyD_epoch:0/1: 	Acc:0.9680, 1.0000
+	D_epoch:0/1: 	Acc:0.9680, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1276/1280
+	earlyD_epoch:0/1: 	Acc:0.9314, 1.0000
+	D_epoch:0/1: 	Acc:0.9314, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1277/1280
+	earlyD_epoch:0/1: 	Acc:0.9742, 1.0000
+	D_epoch:0/1: 	Acc:0.9742, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1278/1280
+	earlyD_epoch:0/1: 	Acc:0.9857, 1.0000
+	D_epoch:0/1: 	Acc:0.9857, 1.0000
+	G_epoch:0/1: GAcc:0.0000	
+
+epoch:1279/1280
+
